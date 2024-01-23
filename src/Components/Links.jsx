@@ -20,8 +20,8 @@ as students and as members of their communities.</div>
 
 <div className='flex flex-row justify-center gap-10 flex-wrap my-6 items-center'>
 
-    <button onClick= { () => navigate("/Enroll")} className='bg-[#11182e] text-white py-8 gap-3 min-w-40 flex flex-col items-center rounded-md text-lg transition-all ease-linear hover:bg-[#11182ec1] hover:text-black'>
-        <TfiSupport size={40}/>Enroll</button>
+    <button onClick= { () => navigate("/About")} className='bg-[#11182e] text-white py-8 gap-3 min-w-40 flex flex-col items-center rounded-md text-lg transition-all ease-linear hover:bg-[#11182ec1] hover:text-black'>
+        <TfiSupport size={40}/>About</button>
     <button onClick= { () => navigate("/Career")} className='bg-[#11182e] text-white py-8 gap-3 min-w-40 flex flex-col items-center rounded-md text-lg transition-all ease-linear hover:bg-[#11182ec1] hover:text-black'>
         <PiChalkboardTeacherBold size={40}/>Career</button>
     <button onClick= { () => navigate("/Events")} className='bg-[#11182e] text-white py-8 gap-3 min-w-40 flex flex-col items-center rounded-md text-lg transition-all ease-linear hover:bg-[#11182ec1] hover:text-black'>

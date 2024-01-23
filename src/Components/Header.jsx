@@ -66,7 +66,12 @@ function Header() {
 
                 <li key={Math.random()} className='border-b-[1px] border-white border-solid pb-2 pt-2'>
                   <a className='text-white mx-4 my-4 py-3 text-2xl font-worksans'
-                  href={href}>{title}</a>
+                  onClick={()=> {
+                    
+                    setOpen(false)
+                    navigate(href)
+
+                  }}>{title}</a>
                   
                 </li> : null
               )
